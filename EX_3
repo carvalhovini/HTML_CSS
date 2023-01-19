@@ -1,0 +1,25 @@
+//efeito de foco nas imagens usando transições CSS.
+
+HTML
+
+<img src="image.jpg" class="image">
+
+``
+
+CSS
+
+.image {
+  transition: all 0.5s ease;
+}
+
+
+}
+
+.image:hover {
+  transform: scale(1.1);
+  
+  box-
+box-shadow: 10px 10px 5px #555;
+}
+
+}
