@@ -1,0 +1,211 @@
+//uma barra de navegação responsiva que se reduz a um menu de hambúrguer em telas menores.
+
+HTML:
+
+<header>
+  
+  <
+
+ 
+<nav>
+    
+    <
+
+   
+<a href="#">Home</a>
+    
+    <
+
+   
+<a href="#">About</a>
+    
+    <
+
+   
+<a href="#">Services</a>
+    
+    <
+
+   
+<a href="#">Contact</a>
+    
+    <
+
+   
+<button id="hamburger-menu">Menu</button>
+  
+  </nav
+</nav>
+</header>
+
+//CSS:
+
+header {
+  
+ 
+display: flex;
+  
+  justify-
+
+  justify
+
+ 
+justify-content: space-between;
+  
+  align-
+
+  align
+
+ 
+align-items: center;
+  
+ 
+padding: 20px;
+  
+ 
+position: fixed;
+  
+ 
+top: 0;
+  
+ 
+left: 0;
+  right: 0;
+  
+ 
+background-color: #333;
+  
+ 
+color: #fff;
+  
+  z-
+
+  z
+
+ 
+z-index: 2;
+}
+
+
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav a {
+  color: #fff;
+  
+  text-dec
+
+  text-
+
+  text
+text-decoration: none;
+  
+ 
+padding: 10px;
+  
+ 
+display: none;
+}
+
+
+}
+
+#
+
+}
+
+
+}
+#hamburger-menu {
+  
+ 
+display: block;
+  
+ 
+font-size: 1.5em;
+  
+ 
+background-color: transparent;
+  
+ 
+border: none;
+  
+ 
+color: #fff;
+  
+ 
+cursor: pointer;
+}
+
+
+}
+
+@
+
+}
+
+
+}
+@media (max-width: 768px) {
+  
+ 
+nav a {
+    
+   
+display: none;
+  }
+  
+  
+  }
+  
+  #
+
+  }
+  
+ 
+
+  }
+  
+
+  }
+
+ 
+#hamburger-menu {
+    
+   
+display: block;
+  }
+}
+
+  }
+}
+``
+
+  }
+}
+
+  }
+
+ 
+//JavaScript
+
+const hamburgerMenu = document.getElementById("hamburger-menu");
+const navLinks = document.querySelectorAll("nav a");
+
+hamburgerMenu.
+
+ham
+addEventListener("click", () => {
+  navLinks.
+  navLinks.
+forEach((link) => {
+    link.classList.toggle("show");
+  });
+});
+
+  });
