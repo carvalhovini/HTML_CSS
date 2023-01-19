@@ -1,0 +1,74 @@
+//uma galeria de imagens responsiva usando grade CSS.
+
+HTML
+
+<div class="image-grid">
+  
+  <
+
+ 
+<img src="image1.jpg" class="image-grid-item">
+  
+  <
+
+ 
+<img src="image2.jpg" class="image-grid-item">
+  
+  <
+
+ 
+<img src="image3.jpg" class="image-grid-item">
+  
+  <
+<img src="image4.jpg" class="image-grid-item">
+  
+  <
+
+ 
+<img src="image5.jpg" class="image-grid-item">
+  
+  <
+
+ 
+<img src="image6.jpg" class="image-grid-item">
+
+</div
+
+</
+</div>
+
+``
+
+CSS
+
+.image-grid {
+  
+ 
+display: grid;
+  
+ 
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  
+ 
+grid-gap: 10px;
+}
+
+
+}
+
+.
+
+}
+
+
+}
+.image-grid-item {
+  
+ 
+width: 100%;
+}
+
+}
+``
+
+}
