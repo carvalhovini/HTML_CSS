@@ -1,0 +1,62 @@
+HTML:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Photo Gallery</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Photo Gallery</h1>
+  </header>
+  <main>
+    <div class="gallery">
+      <img src="photo1.jpg" alt="Photo 1">
+      <img src="photo2.jpg" alt="Photo 2">
+      <img src="photo3.jpg" alt="Photo 3">
+      <img src="photo4.jpg" alt="Photo 4">
+      <img src="photo5.jpg" alt="Photo 5">
+    </div>
+  </main>
+  <footer>
+    <p>Copyright © 2022 My Name</p>
+  </footer>
+</body>
+</html>
+
+
+CSS:
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  margin: 2em;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 20%;
+  margin: 1%;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 1em;
+  text-align: center;
+}
