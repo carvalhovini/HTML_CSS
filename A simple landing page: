@@ -1,0 +1,70 @@
+
+HTML:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Landing Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to my landing page!</h1>
+  </header>
+  <main>
+    <section>
+      <h2>About Us</h2>
+      <p>We are a company that specializes in providing top-quality services.</p>
+    </section>
+    <section>
+      <h2>Our Services</h2>
+      <ul>
+        <li>Service 1</li>
+        <li>Service 2</li>
+        <li>Service 3</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact Us</h2>
+      <p>Phone: 555-555-5555</p>
+      <p>Email: info@example.com</p>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © 2022 My Company</p>
+  </footer>
+</body>
+</html>
+
+
+CSS:
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  margin: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 1em;
+  text-align: center;
+}
